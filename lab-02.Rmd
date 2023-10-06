@@ -86,6 +86,7 @@ plastic_data_all %>% count(region)
 
 ```
 
+Africa with 43 countries
 
 
 ### Ex 2.
@@ -93,7 +94,7 @@ plastic_data_all %>% count(region)
 ```{r Ex2, message = FALSE}
 # Write your code here to answer exercise 2
 
-
+plastic_data_all %>% mutate(total_mismanage_plastic = mismanaged_plastic * population)
 
 ```
 
